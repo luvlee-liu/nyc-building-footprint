@@ -72,6 +72,19 @@ DB_SSL_MODE=disable
 PORT=8080
 ```
 
+- Endpoints examples:
+```
+/v1/buildings
+/v1/buildings/1
+/v1/buildings?from=11&limit=20)
+
+/v1/buildings/years/2008?from=0&limit=10
+
+/v1/buildings/stats/years
+/v1/buildings/stats/years/2008
+```
+
+
 - **Must** set environment variable DB_PASSWORD with database password, should be same to `etl.sh` db password (default: "postgres")
 
 ```
