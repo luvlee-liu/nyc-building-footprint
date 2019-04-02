@@ -1,4 +1,4 @@
-## Install postgres and golang
+## Install postgres, golang, golang/dep
 
 ## Download dataset
 
