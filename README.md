@@ -106,3 +106,4 @@ DB_PASSWORD=postgres ./scripts/start-server.sh
 ```
 ./scripts/query.sh
 ```
+
